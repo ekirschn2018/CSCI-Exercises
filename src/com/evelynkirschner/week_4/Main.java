@@ -47,9 +47,9 @@ public class Main {
         String cityTemps;
 
         System.out.println( "Average temperatures");
-        System.out.println("City" + '\u0009' + '\u0009' + "Average Temperature");
+        System.out.println("City : Average Temperature");
         for (String key: cities.keySet()) {
-            System.out.println( key + '\u0009' + '\u0009' + calculateAverage(cities.get(key)));
+            System.out.println( key + " : " + calculateAverage(cities.get(key)));
         }
 
     }
