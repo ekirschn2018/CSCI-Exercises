@@ -4,6 +4,7 @@ import java.util.TreeMap;
 import java.util.Map;
 import java.util.Set;
 
+
 public class Main {
     public static void getCitiesAndTemps( Map<String,String> cities ){
         // method to get list of cities and 5 days of average temperatures
