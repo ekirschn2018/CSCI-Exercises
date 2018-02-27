@@ -13,7 +13,7 @@ class UserInput{
         String userString = "";
         boolean isString = false;
         while (!isString) {
-            // if the string is null, then ask for another
+            // if the string is empty, then ask for another
             if ( userInput.equals("") )
             {
                 System.out.println("You must enter a non-empty string.");
